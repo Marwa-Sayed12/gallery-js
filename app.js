@@ -7,7 +7,7 @@ function getElement(selection) {
       `Please check "${selection}" selector, no such element exists`
     );
   }
-  
+   
   function Gallery(element) {
     this.container = element;
     this.list = [...element.querySelectorAll('.img')];
